@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+
+    color: var(--main-text,);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(176deg,rgba(0, 0, 0, 1) 63%, rgba(74, 40, 0, 1) 100%);
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 20px;
+}
+
+.logo{
+    color: var(--main-text);
+    transition: all 400ms ease;
+}
+
+
+.logo:hover{
+    color: #E87D0E;
+}
+
+
+.header__logo{
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800px;
+}
+
+
+
+
+.header__logo:hover{
+    color: #E87D0E;
+}
+
+
+header nav ul li a{
+    color: var(--main-text);
+    transition: all 400ms ease;
+    z-index: 5;
+}
+
+
+header nav ul li a:hover{
+    color: #E87D0E;
+}
+
+header nav ul li.btn a{
+    background-color: #FA9021;
+    border-radius: 5px;
+    padding: 7px 35px 7px;
+    transition: all 400ms ease;
+}
+
+header nav ul li.btn a:hover{
+    background-color: #693d0d;
+}    
+
+
+.nav{
+    float: right;
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+}
+
+
+.hero {
+    position: relative;
+    z-index: 1;
+}
+
+
+.hero__content{
+    margin-top: 100px;
+
+    width: 527px;
+    height: 512px;
+}
+
+.hero__tag{
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin-bottom: 30px;
+    color: var(--hero-tag);
+
+    font-size: 20px;
+}
+
+.hero__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    font-size: 50px;
+}
+
+.hero__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    font-size: 16px;
+}
+
+.hero__btn{
+    background-color: #FA9021;
+    border-radius: 30px;
+    border: 0;
+    padding: 17px 30px 17px;
+    transition: all 400ms ease;
+}
+
+.a__btn{
+    color: var(--main-text);
+    font-size: 16px;
+}
+
+.hero__btn:hover{
+    background-color: #693d0d;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.hero__img{
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+}
+

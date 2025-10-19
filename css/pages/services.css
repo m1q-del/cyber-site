@@ -60,3 +60,16 @@
     padding-top: 40px;
     padding-bottom: 30px;
 }
+
+.services__vector a {
+    --ddd1: #DC7000;
+}
+
+.services__vector a svg {
+    transition: all 400ms ease; 
+}
+
+.services__vector a:hover {
+    --ddd1: #fff;
+    
+}

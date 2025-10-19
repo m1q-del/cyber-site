@@ -2,6 +2,13 @@
 @import url("./index.css");
 @import url("./variables.css");
 @import url("../pages/games.css");
+@import url("../pages/about-section.css");
+@import url("../pages/services.css");
 
 
 @import url("../pages/header.css");
+
+
+@import url("../pages/media/media1200.css");
+@import url("../pages/media/media768.css");
+@import url("../pages/media/media580.css");

@@ -68,3 +68,16 @@
     position: relative;
 
 }   
+
+
+.h3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 826;
+    height: 132;
+
+    margin-top: 250px;
+    font-size: 35px;
+}
